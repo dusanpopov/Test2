@@ -50,7 +50,7 @@ text-shadow: 1px 1px #17212b;
 
 .main-navbar__link{
     color: #4F4F4F;
-    
+    font-family: 'Roboto Slab', serif;    
 }
 
 .main-navbar__link:hover{
