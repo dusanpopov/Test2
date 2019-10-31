@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 1100px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 1.5rem 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    color: #C73339;
+text-shadow: 1px 1px #17212b;
+}
+
+.main-navbar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .4rem 0;
+}
+
+.main-navbar__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5rem;
+}
+
+.main-navbar__list-item{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-navbar__link{
+    color: #4F4F4F;
+    
+}
+
+.main-navbar__link:hover{
+    color: rgb(54, 54, 54);
+    transition: .4s ease;
+}
+
+main{
+    margin-top: 3rem;
+}
+
+.new-title{
+    border-bottom: 1px solid black;
+}
+
+.card__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+    grid-gap: .5rem;
+    margin-top: 1rem;
+}
+
+.card__description, .socials{
+    background-color: #333333;
+}
+
+/* .card__description{
+    padding: 1rem .3rem;
+    color: #fff;
+    font-size: .8rem;
+    text-transform: uppercase;
+} */
+
+.fab{
+    color: #fff;
+    padding: .2rem;
+    font-size: 1.5rem;
+}
+
+.socials{
+    text-align: center;
+    padding-bottom: .3rem;
+}
+
+.card-container{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-gap: 1rem;
+}
+
+
+.card {
+    background-color: white;
+    margin-top: 1.6rem; 
+}
+.card__title {
+    font-size: 1.2rem;
+    margin: .8rem 0;
+    text-align: center;
+    cursor: pointer;
+}
+.card__description {
+    padding: .5rem;
+    line-height: 1.6em;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+
+@media screen and (max-width:420px){
+
+    .main-navbar{
+        margin-top: 3rem;
+        border-bottom: none;
+        border-top: none;
+    }
+    .main-navbar__list{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 .5rem;
+    }
+
+    .main-navbar__link{
+        background-color: #333333;
+        color: white;
+        margin-right: .3rem;
+        padding: .5rem;
+        font-weight: lighter;
+        font-size: .8rem;
+    }
+
+    .main-navbar__link:hover{
+        color: rgb(253, 103, 103);
+    }
+}
