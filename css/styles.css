@@ -23,12 +23,17 @@ img{
     margin: 0 auto;
 }
 
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     margin: 1.5rem 0;
     font-family: 'Russo One', sans-serif;
-    font-size: 3rem;
-    color: #17212b;
-text-shadow: 1px 1px #3b3c3d;
+    font-size: 2.5rem;
+    color: #3b3b3b;
+/* text-shadow: 1px 1px #c2c2c2; */
 }
 
 .main-navbar{
@@ -123,8 +128,30 @@ main{
     color: #fff;
 }
 
+.color-wrapper{
+    width: 70px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.color-wrapper__color1{
+    background-color: #E41937;
+}
+
+.color-wrapper__color2{
+    background-color: #00529B;
+}
+
+.color-wrapper__color3{
+    background-color: rgb(255, 255, 255);
+}
 
 @media screen and (max-width:420px){
+
+
+    .logo{
+        font-size: 2rem;
+    }
 
     .main-navbar{
         margin-top: 3rem;
